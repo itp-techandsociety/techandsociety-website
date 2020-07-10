@@ -348,8 +348,7 @@ ul {
 }
 
 /* Extra small devices (phones, 762px and down) */
-
-@media only screen and (max-width: 962px) {
+@media only screen and (max-width: 762px) {
     #placeholder-flower-image {
         visibility: hidden;
         display: none;
@@ -375,16 +374,14 @@ ul {
 }
 
 /* Large devices (laptops/desktops, 762px and up) */
-
-@media only screen and (min-width: 962px) {
+@media only screen and (min-width: 762px) {
     #footer-copyright {
         text-align: right;
     }
 }
 
 /* Extra small devices (phones, 762px and down) */
-
-@media only screen and (max-width: 962px) {
+@media only screen and (max-width: 762px) {
     #footer-copyright {
         text-align: left;
     }
