@@ -68,9 +68,9 @@ a {
     line-height: 1.6em;
 }
 
-a:focus{
+a:focus {
     color: black;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a:hover {
@@ -128,7 +128,7 @@ ul {
     /* border-bottom: 1px solid black; */
     padding: 2% 0% 2% 1%;
     background: rgb(211, 211, 13);
-    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 10%, rgba(241, 165, 129, 1) 45%, rgba(60, 177, 147, 1) 80%, rgba(204, 135, 198, 1) 100%);
+    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 6%, rgba(241, 165, 129, 1) 30%, rgba(60, 177, 147, 1) 70%, rgba(204, 135, 198, 1) 100%);
     font-family: 'Redaction-Regular', serif;
     font-size: 1.15em;
     line-height: 1.6em;
@@ -353,6 +353,7 @@ ul {
 }
 
 /* Extra small devices (phones, 762px and down) */
+
 @media only screen and (max-width: 762px) {
     #placeholder-flower-image {
         visibility: hidden;
@@ -372,13 +373,14 @@ ul {
 
 #footer-container {
     background: rgb(211, 211, 13);
-    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 10%, rgba(241, 165, 129, 1) 45%, rgba(60, 177, 147, 1) 80%, rgba(204, 135, 198, 1) 100%);
+    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 6%, rgba(241, 165, 129, 1) 30%, rgba(60, 177, 147, 1) 70%, rgba(204, 135, 198, 1) 100%);
     font-family: 'Redaction-Regular', serif;
     border-top: 0.125em solid black;
     padding: 4% 2%;
 }
 
 /* Large devices (laptops/desktops, 762px and up) */
+
 @media only screen and (min-width: 762px) {
     #footer-copyright {
         text-align: right;
@@ -386,6 +388,7 @@ ul {
 }
 
 /* Extra small devices (phones, 762px and down) */
+
 @media only screen and (max-width: 762px) {
     #footer-copyright {
         text-align: left;
