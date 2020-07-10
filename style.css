@@ -1,0 +1,399 @@
+@font-face {
+    font-family: 'Redaction-Regular';
+    src: url('fonts/Redaction-Regular.eot');
+    src: url('fonts/Redaction-Regular.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'PDURegular';
+    src: url('fonts/PDURegular.eot');
+    src: url('fonts/PDU_Regular.ttf');
+    format('truetype');
+}
+
+/*////////////////////////// GENERAL //////////////////////*/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'PDURegular';
+    font-size: 3.25em;
+    color: black;
+    padding-bottom: 6%;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-family: 'Redaction-Regular';
+    font-size: 2.2em;
+    line-height: 1.725em;
+    color: black;
+    padding-bottom: 1%;
+}
+
+/* Large devices (laptops/desktops, 762px and up) */
+
+@media only screen and (min-width: 762px) {
+    h3 {
+        font-size: 1.9em;
+        line-height: 1.355em;
+    }
+}
+
+/* Extra small devices (phones, 762px and down) */
+
+@media only screen and (max-width: 762px) {
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.45em;
+    }
+}
+
+p {
+    font-family: 'Redaction-Regular';
+    font-size: 1.12em;
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+a:focus{
+    color: black;
+    text-decoration:none;
+}
+
+a:hover {
+    color: black;
+    opacity: 20%;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    opacity: 20%;
+    text-decoration: none;
+}
+
+.all-caps {
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.container {
+    /* margin-top: 1.2vh;
+    width: 97%; */
+    width: 100%;
+    max-width: 100%;
+}
+
+/*underline for links*/
+
+u {
+    text-decoration: none;
+    border-bottom: 1.5px solid black;
+}
+
+ul {
+    font-family: 'Redaction-Regular';
+    color: black;
+    font-size: 1.125em;
+    list-style-type: "+  ";
+    line-height: 1.725em;
+}
+
+/*////////////////////////// NAVBAR //////////////////////*/
+
+#navbar-container {
+    width: 100%;
+    max-width: 100%;
+    border-bottom: 0.125em solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#navbar {
+    /* border-bottom: 1px solid black; */
+    padding: 2% 0% 2% 1%;
+    background: rgb(211, 211, 13);
+    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 10%, rgba(241, 165, 129, 1) 45%, rgba(60, 177, 147, 1) 80%, rgba(204, 135, 198, 1) 100%);
+    font-family: 'Redaction-Regular', serif;
+    font-size: 1.15em;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+#navbar-about, #navbar-events, #navbar-bookclub, #navbar-resources {
+    text-align: right;
+}
+
+/* Large devices (laptops/desktops, 762px and up) */
+
+@media only screen and (min-width: 762px) {
+    #navbar-about, #navbar-events, #navbar-bookclub, #navbar-resources {
+        text-align: right;
+    }
+}
+
+/* Extra small devices (phones, 762px and down) */
+
+@media only screen and (max-width: 762px) {
+    #navbar-about, #navbar-events, #navbar-bookclub, #navbar-resources {
+        text-align: left;
+    }
+}
+
+/*////////////////////////// HEADER //////////////////////*/
+
+#header-section {
+    padding-top: 10vh;
+}
+
+/* Large devices (laptops/desktops, 762px and up) */
+
+@media only screen and (min-width: 762px) {
+    #header-section {
+        padding-top: 10%;
+    }
+}
+
+/* Extra small devices (phones, 762px and down) */
+
+@media only screen and (max-width: 762px) {
+    #header-section {
+        padding-top: 2%;
+    }
+    #navbar-container {
+        position: relative;
+    }
+}
+
+#header-container {
+    background-color: #EBEFD8;
+    padding: 2%;
+    border-bottom: 0.125em solid black;
+}
+
+#logo-img {
+    width: 98%;
+    margin-left: 2%;
+    float: left;
+    padding-top: 35%;
+    padding-bottom: 5%;
+}
+
+#header-img {
+    width: 90%;
+    float: right;
+}
+
+/* Large devices (laptops/desktops, 762px and up) */
+
+@media only screen and (min-width: 762px) {
+    #logo-img {
+        padding-top: 35%;
+    }
+}
+
+/* Extra small devices (phones, 762px and down) */
+
+@media only screen and (max-width: 762px) {
+    #logo-img {
+        padding-top: 8%;
+        width: 85%;
+    }
+}
+
+/*////////////////////////// ABOUT ///////////////////////////*/
+
+#about-container {
+    background-color: #D3D30D;
+    border-bottom: 0.125em solid black;
+}
+
+#about-section {
+    padding: 8% 4% 8% 2%;
+}
+
+.col-md-11 {
+    padding: 0%;
+}
+
+/* Large devices (laptops/desktops, 762px and up) */
+
+@media only screen and (min-width: 762px) {
+    #heart-img {
+        position: relative;
+        width: 19%;
+        top: -9vh;
+        left: 28vw;
+    }
+}
+
+/* Extra small devices (phones, 762px and down) */
+
+@media only screen and (max-width: 762px) {
+    #heart-img {
+        position: relative;
+        width: 24%;
+        top: 2vh;
+        left: 45vw;
+        visibility: hidden;
+    }
+}
+
+/*////////////////////////// EVENTS ///////////////////////////*/
+
+#events-container {
+    padding-left: 2%;
+    background-color: #F1A581;
+}
+
+.events-div {
+    padding-right: 8%;
+}
+
+#events-head-div {
+    padding-top: 8%;
+}
+
+.events-left-div {
+    border-right: 0.125em solid black;
+    background-color: #F1A581;
+}
+
+.events-right-div {
+    background-color: #F07A4D;
+    padding-bottom: 8%;
+}
+
+/* Large devices (laptops/desktops, 762px and up) */
+
+@media only screen and (min-width: 762px) {
+    #calendar-img {
+        width: 30%;
+        position: absolute;
+        z-index: 2;
+        right: 45vw;
+        top: 90%;
+    }
+}
+
+/* Extra small devices (phones, 762px and down) */
+
+@media only screen and (max-width: 762px) {
+    #calendar-img {
+        /* position: relative;
+        width: 24%;
+        top: 2vh;
+        left: 45vw; */
+        visibility: hidden;
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 762px and up) */
+
+@media only screen and (min-width: 762px) {
+    .events-left-div {
+        border-right: 0.125em solid black;
+    }
+    #speakers-div {
+        padding-left: 4%;
+    }
+}
+
+/* Extra small devices (phones, 762px and down) */
+
+@media only screen and (max-width:762px) {
+    .events-left-div {
+        border-right: none;
+        padding-bottom: 0%;
+    }
+    #events-right-div-blank {
+        padding-bottom: 0;
+        background-color: #F1A581;
+    }
+    #workshops-div {
+        padding-bottom: 5%;
+    }
+    #speakers-div {
+        padding-top: 5%;
+        border-top: 0.125em black solid;
+        padding-left: 4%;
+    }
+}
+
+/*////////////////////////// BOOK CLUB ///////////////////////////*/
+
+#book-club-container {
+    background-color: #3CB193;
+    border-top: 0.125em solid black;
+    padding: 8% 2%;
+}
+
+#placeholder-flower-image {
+    width: 120%;
+    /* mix-blend-mode: multiply; */
+    position: relative;
+    top: 1vh;
+}
+
+/* Extra small devices (phones, 762px and down) */
+@media only screen and (max-width: 762px) {
+    #placeholder-flower-image {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+/*////////////////////////// RESOURCES ///////////////////////////*/
+
+#resources-container {
+    background-color: #CC87C6;
+    border-top: 0.125em solid black;
+    padding: 8% 2%;
+}
+
+/*////////////////////////// FOOTER ///////////////////////////*/
+
+#footer-container {
+    background: rgb(211, 211, 13);
+    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 10%, rgba(241, 165, 129, 1) 45%, rgba(60, 177, 147, 1) 80%, rgba(204, 135, 198, 1) 100%);
+    font-family: 'Redaction-Regular', serif;
+    border-top: 0.125em solid black;
+    padding: 4% 2%;
+}
+
+/* Large devices (laptops/desktops, 762px and up) */
+@media only screen and (min-width: 762px) {
+    #footer-copyright {
+        text-align: right;
+    }
+}
+
+/* Extra small devices (phones, 762px and down) */
+@media only screen and (max-width: 762px) {
+    #footer-copyright {
+        text-align: left;
+    }
+}
+
+/*////////////////////////// TROUBLESHOOTING ///////////////////////////*/
+
+/* div{
+    border: red 1px solid;
+} */
