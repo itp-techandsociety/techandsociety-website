@@ -278,7 +278,8 @@ ul {
     width: 3em;
     float: right;
     position: relative;
-    top: 0px;    
+    top: 0px;   
+    cursor: pointer; 
 }
 
 .event-more-info-div{
