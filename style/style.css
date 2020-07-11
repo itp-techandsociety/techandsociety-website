@@ -6,6 +6,14 @@
 }
 
 @font-face {
+    font-family: 'Redaction-Bold';
+    src: url('fonts/Redaction-Bold.eot');
+    src: url('fonts/Redaction-Bold.ttf');
+    format('truetype');
+}
+
+
+@font-face {
     font-family: 'PDURegular';
     src: url('fonts/PDURegular.eot');
     src: url('fonts/PDU_Regular.ttf');
@@ -36,7 +44,6 @@ h3 {
 }
 
 /* Large devices (laptops/desktops, 762px and up) */
-
 @media only screen and (min-width: 762px) {
     h3 {
         font-size: 1.9em;
@@ -45,7 +52,6 @@ h3 {
 }
 
 /* Extra small devices (phones, 762px and down) */
-
 @media only screen and (max-width: 762px) {
     h3 {
         font-size: 1.5em;
@@ -128,7 +134,7 @@ ul {
     /* border-bottom: 1px solid black; */
     padding: 2% 0% 2% 1%;
     background: rgb(211, 211, 13);
-    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 4%, rgba(183,203,211,1) 28%, rgba(60, 177, 147, 1)66%, rgba(241, 165, 129, 1) 95%);
+    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 4%, rgba(183,203,211,1) 28%, rgba(241, 165, 129,1) 66%, rgba(60, 177, 147, 1) 95%);
     font-family: 'Redaction-Regular', serif;
     font-size: 1.15em;
     line-height: 1.6em;
@@ -232,86 +238,74 @@ ul {
 /*////////////////////////// EVENTS ///////////////////////////*/
 
 #events-container {
-    padding-left: 2%;
+    padding: 8% 0% 2% 0%;
     background-color: #b7cbd3;
 }
 
-.events-div {
-    padding-right: 8%;
+.events-headline{
+    padding-left: 2%;
 }
 
 #events-head-div {
     padding-top: 8%;
 }
 
-.events-left-div {
-    border-right: 0.125em solid black;
-    /* background-color: #F1A581; */
-    background-color: #b7cbd3;
-}
-
-.events-right-div {
-    /* background-color: #F07A4D; */
-    background-color: #b7cbd3;
-    padding-bottom: 8%;
+.event-info-div{
+    border-top: 0.125em solid black;
+    padding: 1% 2%;
 }
 
 /* Large devices (laptops/desktops, 762px and up) */
-
 @media only screen and (min-width: 762px) {
     #calendar-img {
         width: 30%;
         position: absolute;
         z-index: 2;
-        right: 45vw;
-        top: 90%;
+        right: 35vw;
+        top: 93%;
     }
 }
 
 /* Extra small devices (phones, 762px and down) */
-
 @media only screen and (max-width: 762px) {
     #calendar-img {
-        /* position: relative;
-        width: 24%;
-        top: 2vh;
-        left: 45vw; */
         visibility: hidden;
         display: none;
     }
 }
 
-/* Large devices (laptops/desktops, 762px and up) */
+.showSingle{
+    width: 3em;
+    float: right;
+    position: relative;
+    top: 0px;    
+}
 
-@media only screen and (min-width: 762px) {
-    .events-left-div {
-        border-right: 0.125em solid black;
-    }
-    #speakers-div {
-        padding-left: 4%;
-    }
+.event-more-info-div{
+    padding: 0% 0% 2% 0%;
+}
+
+.event-graphic{
+    width: 35vw;
+    float: right;
+}
+
+.event-graphic-credit{
+    font-size: 0.7em;
 }
 
 /* Extra small devices (phones, 762px and down) */
+@media only screen and (max-width: 762px) {
+    .event-graphic{
+        width: 90vw;
+        float: left;
+    }
 
-@media only screen and (max-width:762px) {
-    .events-left-div {
-        border-right: none;
-        padding-bottom: 0%;
-    }
-    #events-right-div-blank {
-        padding-bottom: 0;
-        background-color: #F1A581;
-    }
-    #workshops-div {
-        padding-bottom: 5%;
-    }
-    #speakers-div {
-        padding-top: 5%;
-        border-top: 0.125em black solid;
-        padding-left: 4%;
+    .showSingle{
+        width: 2.25em;
     }
 }
+
 
 /*////////////////////////// BOOK CLUB ///////////////////////////*/
 
@@ -331,7 +325,7 @@ ul {
 /* Extra small devices (phones, 762px and down) */
 
 @media only screen and (max-width: 762px) {
-    #placeholder-flower-image {
+    #book-club-illos {
         visibility: hidden;
         display: none;
     }
@@ -349,7 +343,7 @@ ul {
 
 #footer-container {
     background: rgb(211, 211, 13);
-    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 4%, rgba(183,203,211,1) 28%, rgba(60, 177, 147, 1)66%, rgba(241, 165, 129, 1) 95%);
+    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 4%, rgba(183,203,211,1) 28%, rgba(241, 165, 129,1) 66%, rgba(60, 177, 147, 1) 95%);
     font-family: 'Redaction-Regular', serif;
     border-top: 0.125em solid black;
     padding: 4% 2%;
