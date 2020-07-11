@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech and Society</title>
+    <title>ITP/IMA Tech + Society</title>
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
@@ -19,8 +19,8 @@
 
 <body class='body-home'>
 
-<!--SCRIPT-->
-<script src="script.js"></script>
+    <!--SCRIPT-->
+    <script src="script.js"></script>
 
     <!--CONTAINER-->
     <div class="container" id='navbar-container'>
@@ -91,36 +91,130 @@
 
     <!--EVENTS-->
     <div class='container' id='events-container'>
-        <!--TEXT-->
         <div id='events-section' class='row justify-content-between'>
-            <div id='events-head-div' class='events-left-div events-div col-md-6'>
-                <h2>EVENTS</h2>
-            </div>
+            <div class='events-div col-md-12'>
+                <h2 class='events-headline'>EVENTS</h2>
 
-            <div id='events-right-div-blank' class='events-right-div events-div col-md-6'>
-            </div>
-        </div>
-        <div id='events-section' class='row justify-content-between'>
-            <div id='workshops-div' class='events-left-div events-div col-md-6'>
-                <h3>Workshops</h3>
-                <p>
-                    Placeholder Text: Tech & Society is a working group formed last year to help foster a community of
-                    critical inquiry at ITP and within the tech community in general. Through weekly meetings, reading
-                    groups, and guest speakers, we are working to prefigure a technological future that prioritizes
-                    ethics and justice and that better serves a wider societal demographic. <br> <br>
-                    Read More
-                </p>
-            </div>
+                <!--EVENT INFO-->
+                <div class='event-info-div'>
+                    <img src="style/assets/plus_icon.png" alt="plus icon" class='showSingle' target="1">
+                    <h3>Start the Conversation Edit-a-Thon</h3>
+                    <p>July 12, 2020 at 2pm EST<br>Offered by the Coding Lab</p>
 
-            <div id='speakers-div' class='events-right-div events-div col-md-6'>
-                <h3>Speakers</h3>
-                <p>
-                    Placeholder Text: Tech & Society is a working group formed last year to help foster a community of
-                    critical inquiry at ITP and within the tech community in general. Through weekly meetings, reading
-                    groups, and guest speakers, we are working to prefigure a technological future that prioritizes
-                    ethics and justice and that better serves a wider societal demographic. <br> <br>
-                    Read More
-                </p>
+                    <!--EVENT INFO DIV TO SHOW ON CLICK-->
+                    <div id="div1" class='targetDiv event-more-info-div row justify-content-between'
+                        style="display:none;">
+                        <div class='event-more-info-text col-md-6'>
+                            <p class='event-zoom-link'>
+                                <b>Join with this link:</b> <a href="https://nyu.zoom.us/j/6870749012" target="_blank"
+                                    rel="noopener noreferrer">https://nyu.zoom.us/j/6870749012</a>
+                            </p>
+                            <p class='event-description'>
+                                Start The Conversation is an app to help you have difficult conversations. It was born
+                                out
+                                of the need we felt to persuade loved ones through conversation to recognize racial
+                                injustice in the United States. You can text the app at +1(205)890-3139 with a question
+                                or
+                                topic and get a relevant response to add to your conversation. You can say things like
+                                "Tell
+                                me more about police brutality," or "What do you know about infant mortality and race in
+                                the
+                                US?" or “I want to know about incarceration and race.” The hope is that this app will
+                                quickly give you the resources you may need to meaningfully engage in these
+                                conversations.
+                                We will hold an Edit-A-Thon-style workshop on Sunday July 12th at 2pm where we will edit
+                                the
+                                database of responses and then hold a second workshop TBD to see how effective the app
+                                has
+                                been for us and to review the technology behind it.
+                            </p>
+                            <p class='event-graphic-credit'>Graphic by Yiting Liu</p>
+                        </div>
+                        <div class='event-more-info-text col-md-5'>
+                            <img src="style/events_graphic/conversation starter_2.png"
+                                alt="conversation starter graphic" class='event-graphic'>
+                        </div>
+                    </div>
+                </div>
+
+                <!--EVENT INFO-->
+                <div class='event-info-div'>
+                    <img src="style/assets/plus_icon.png" alt="plus icon" class='showSingle' target="2">
+                    <h3>How to Protest</h3>
+                    <p>TBD<br>Offered by Julia Richie</p>
+
+                    <!--EVENT INFO DIV TO SHOW ON CLICK-->
+                    <div id="div2" class='targetDiv event-more-info-div row justify-content-between'
+                        style="display:none;">
+                        <div class='event-more-info-text col-md-6'>
+                            <p class='event-zoom-link'>
+                                <b>Join with this link:</b> <a href="https://nyu.zoom.us/j/6870749012" target="_blank"
+                                    rel="noopener noreferrer">TBD</a>
+                            </p>
+                            <p class='event-description'>
+                                More Info to Come.
+                            </p>
+                            <!-- <p class='event-graphic-credit'>Graphic by Yiting Liu</p> -->
+                        </div>
+                        <div class='event-more-info-text col-md-5'>
+                            <!-- <img src="style/events_graphic/conversation starter_2.png"
+                                alt="conversation starter graphic" class='event-graphic'> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!--EVENT INFO-->
+                <div class='event-info-div'>
+                    <img src="style/assets/plus_icon.png" alt="plus icon" class='showSingle' target="3">
+                    <h3>How to Get Off the Very Straight Path to Being Mark Zuckerberg</h3>
+                    <p>TBD<br>Emma Rae Norton</p>
+
+                    <!--EVENT INFO DIV TO SHOW ON CLICK-->
+                    <div id="div3" class='targetDiv event-more-info-div row justify-content-between'
+                        style="display:none;">
+                        <div class='event-more-info-text col-md-6'>
+                            <p class='event-zoom-link'>
+                                <b>Join with this link:</b> <a href="https://nyu.zoom.us/j/6870749012" target="_blank"
+                                    rel="noopener noreferrer">TBD</a>
+                            </p>
+                            <p class='event-description'>
+                                More Info to Come.
+                            </p>
+                            <!-- <p class='event-graphic-credit'>Graphic by Yiting Liu</p> -->
+                        </div>
+                        <div class='event-more-info-text col-md-5'>
+                            <!-- <img src="style/events_graphic/conversation starter_2.png"
+                                                alt="conversation starter graphic" class='event-graphic'> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!--EVENT INFO-->
+                <div class='event-info-div'>
+                    <img src="style/assets/plus_icon.png" alt="plus icon" class='showSingle' target="4">
+                    <h3>History of Black Software</h3>
+                    <p>TBD<br>Offered by Dr. Charlton D. McIlwain</p>
+
+                    <!--EVENT INFO DIV TO SHOW ON CLICK-->
+                    <div id="div4" class='targetDiv event-more-info-div row justify-content-between'
+                        style="display:none;">
+                        <div class='event-more-info-text col-md-6'>
+                            <p class='event-zoom-link'>
+                                <b>Join with this link:</b> <a href="https://nyu.zoom.us/j/6870749012" target="_blank"
+                                    rel="noopener noreferrer">TBD</a>
+                            </p>
+                            <p class='event-description'>
+                                More Info to Come.
+                            </p>
+                            <!-- <p class='event-graphic-credit'>Graphic by Yiting Liu</p> -->
+                        </div>
+                        <div class='event-more-info-text col-md-5'>
+                            <!-- <img src="style/events_graphic/conversation starter_2.png"
+                                                                alt="conversation starter graphic" class='event-graphic'> -->
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -209,8 +303,8 @@
             <!-- <div id = 'footer-email' class='col-md-4'>
                 <p>techandsociety@gmail.com</p>
             </div> -->
-            <div class='col-md-6'id='footer-copyright'>
-                <a href="mailto:itp.techandsociety@gmail.com" >❤ Tech and Society 2020</a>
+            <div class='col-md-6' id='footer-copyright'>
+                <a href="mailto:itp.techandsociety@gmail.com">❤ Tech and Society 2020</a>
             </div>
         </div>
     </div>
