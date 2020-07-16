@@ -12,7 +12,6 @@
     format('truetype');
 }
 
-
 @font-face {
     font-family: 'PDURegular';
     src: url('fonts/PDURegular.eot');
@@ -44,6 +43,7 @@ h3 {
 }
 
 /* Large devices (laptops/desktops, 762px and up) */
+
 @media only screen and (min-width: 762px) {
     h3 {
         font-size: 1.9em;
@@ -52,6 +52,7 @@ h3 {
 }
 
 /* Extra small devices (phones, 762px and down) */
+
 @media only screen and (max-width: 762px) {
     h3 {
         font-size: 1.5em;
@@ -134,7 +135,7 @@ ul {
     /* border-bottom: 1px solid black; */
     padding: 2% 0% 2% 1%;
     background: rgb(211, 211, 13);
-    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 4%, rgba(183,203,211,1) 28%, rgba(241, 165, 129,1) 66%, rgba(60, 177, 147, 1) 95%);
+    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 0%, rgba(187, 202, 210, 1) 28%, rgba(240, 122, 77, 1) 55%, rgba(60, 177, 147, 1) 80%, rgba(187, 123, 178, 1) 100%);
     font-family: 'Redaction-Regular', serif;
     font-size: 1.15em;
     line-height: 1.6em;
@@ -234,7 +235,6 @@ ul {
     padding: 0%;
 }
 
-
 /*////////////////////////// EVENTS ///////////////////////////*/
 
 #events-container {
@@ -242,7 +242,7 @@ ul {
     background-color: #b7cbd3;
 }
 
-.events-headline{
+.events-headline {
     padding-left: 2%;
 }
 
@@ -250,12 +250,13 @@ ul {
     padding-top: 8%;
 }
 
-.event-info-div{
+.event-info-div {
     border-top: 0.125em solid black;
     padding: 1% 2%;
 }
 
 /* Large devices (laptops/desktops, 762px and up) */
+
 @media only screen and (min-width: 762px) {
     #calendar-img {
         width: 30%;
@@ -267,6 +268,7 @@ ul {
 }
 
 /* Extra small devices (phones, 762px and down) */
+
 @media only screen and (max-width: 762px) {
     #calendar-img {
         visibility: hidden;
@@ -274,44 +276,43 @@ ul {
     }
 }
 
-.showSingle{
+.showSingle {
     width: 3em;
     float: right;
     position: relative;
-    top: 0px;   
-    cursor: pointer; 
+    top: 0px;
+    cursor: pointer;
 }
 
-.event-more-info-div{
+.event-more-info-div {
     padding: 0% 0% 2% 0%;
 }
 
-.event-graphic{
+.event-graphic {
     width: 35vw;
     float: right;
 }
 
-.event-graphic-credit{
+.event-graphic-credit {
     font-size: 0.7em;
 }
 
 /* Extra small devices (phones, 762px and down) */
+
 @media only screen and (max-width: 762px) {
-    .event-graphic{
+    .event-graphic {
         width: 90vw;
         float: left;
     }
-
-    .showSingle{
+    .showSingle {
         width: 2.25em;
     }
 }
 
-
 /*////////////////////////// BOOK CLUB ///////////////////////////*/
 
 #book-club-container {
-    background-color: #F1A581;
+    background-color: #F07A4D;
     border-top: 0.125em solid black;
     padding: 8% 2%;
 }
@@ -344,7 +345,7 @@ ul {
 
 #footer-container {
     background: rgb(211, 211, 13);
-    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 4%, rgba(183,203,211,1) 28%, rgba(241, 165, 129,1) 66%, rgba(60, 177, 147, 1) 95%);
+    background: linear-gradient(119deg, rgba(211, 211, 13, 1) 0%, rgba(187, 202, 210, 1) 28%, rgba(240, 122, 77, 1) 55%, rgba(60, 177, 147, 1) 80%, rgba(187, 123, 178, 1) 100%);
     font-family: 'Redaction-Regular', serif;
     border-top: 0.125em solid black;
     padding: 4% 2%;
